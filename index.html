@@ -25,21 +25,30 @@
     </a>
     <!-- End of Logo -->
     
-    <ul class="navbar-nav ml-auto"> <!-- ml-auto (margin left)-->
-      <li class="nav-item">
-        <a class="nav-link active" href="">link 1</a> <!-- active (to be used later?) -->
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="">link 2</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="">link 3</a>
-      </li>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="">link 4</a> <!-- disabled (to be used later?) -->
-      </li>
-    </ul>
+    <!-- Toggler button -->
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#theTarget">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- End of toggler button -->
+    
+    <div class="collapse navbar-collapse" id="theTarget"> <!-- This <div> wraps <ul> to make it collapsable -->
+      <ul class="navbar-nav ml-auto"> <!-- ml-auto (margin left)-->
+        <li class="nav-item">
+          <a class="nav-link active" href="">link 1</a> <!-- active (to be used later?) -->
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">link 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">link 3</a>
+        </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="">link 4</a> <!-- disabled (to be used later?) -->
+        </li>
+      </ul>
+    </div>
+    
   </nav>
   
 </body>
