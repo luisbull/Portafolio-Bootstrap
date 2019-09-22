@@ -84,6 +84,20 @@ a.nav-link.disabled{   /* IF |disable| is deleted in HTML, replace it for |locat
 /* ----- Iconds end ----- */
 
 
+/* ------- Typed text effect ------- */
+.text {
+    /* position: absolute; */ /* If we want "I am a" to don't move */
+    /* top: 25%; */
+    /* left: 30%; */
+    color: white;
+    font-size: 40px;
+}
+.type {
+    color: red;
+}
+/* ------- Typed text effect ends ------- */
+
+
 /* ------ Buttons ------ */
 .btn1 {
     padding: 10px 15px;
