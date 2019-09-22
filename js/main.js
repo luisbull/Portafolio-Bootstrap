@@ -1,3 +1,4 @@
+// ----- Ripple effect ----- //
 jQuery(document).ready(function(){
 
     "use strict"
@@ -9,3 +10,18 @@ jQuery(document).ready(function(){
 
 
 });
+// ----- Ripple effect ends ----- //
+
+
+// ----- Typed effect ----- //
+var typed = new Typed(".type", {
+    strings: [
+        "web developer",
+        "drafter", 
+        "web designer"
+    ],
+    typeSpeed: 80,
+    backSpeed: 80,
+    loop: true
+});
+// ----- Typed effect ends ----- //
