@@ -25,3 +25,16 @@ var typed = new Typed(".type", {
     loop: true
 });
 // ----- Typed effect ends ----- //
+
+
+// ----- Fixed Navigation and Color transition -----  //
+$(window).scroll(function () {
+    
+    var top = $(window).scrollTop();
+    if (top >= 60){
+        $("nav").addClass("secondary");
+    } else if ($("nav").hasClass("secondary")){
+        $("nav").removeClass("secondary");
+    }
+});
+// --- Fixed Navigation and Color transition ends ---  //
