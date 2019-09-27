@@ -56,13 +56,13 @@ a.nav-link.disabled{   /* IF |disable| is deleted in HTML, replace it for |locat
 
 
 /* ========================================
-------- Sticky Nav Color Transition ------- 
+------ Fixed-top Nav Color Transition ----- 
 =========================================*/
 .secondary {
     background-color: rgb(0, 0, 0) !important;
 }
 /* ========================================
------ Sticky Nav Color Transition ends ---- 
+--- Fixed-top Nav Color Transition ends --- 
 =========================================*/
 
 
