@@ -209,6 +209,64 @@ a.fab:hover {
 =========================================*/
 
 
+/* Needs to be fixed in some screen sizes */
+
 .service-wrap{
-    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+    overflow: hidden;
+    padding: 25px 35px;
+    margin-top: 20px;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    z-index: 9;
 }
+.service-wrap::before, .service-wrap::after{
+    content: "";
+    height: 300%;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 180%;
+    z-index: -9;
+    transition: all 0.5s;
+    opacity: 0;
+    background: #34495e; 
+}
+
+.service-wrap::before{
+    top: -55px;
+    left: 100%;
+}
+.service-wrap:hover:before{
+    left: -55px;
+    opacity: 1;
+}
+
+.service-wrap::after{
+    right: 100%;
+    bottom: -55px;
+}
+.service-wrap:hover:after{
+    right: -55px;
+    opacity: 1;
+}
+.service-wrap:hover{
+    color: white;
+}
+
+.service-wrap:hover h3{
+    color: white;
+}
+
+.service-icon {
+    font-size: 25px;
+    margin-bottom: 20px;
+    transition: all 0.6s ease 0s;
+}
+
+.service-wrap:hover .service-icon {
+    transform: rotate(360deg);
+}
+ 
+/* ======================================== 
+------------ Services ends ---------------- 
+=========================================*/
