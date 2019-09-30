@@ -5,10 +5,8 @@ jQuery(document).ready(function(){
         $(".slider").ripples({
             dropRadius: 15,
             perturbance: 0.01,
-            
+            // other options 
         });
-
-
 });
 // ----- Ripple effect ends ----- //
 
@@ -38,3 +36,15 @@ $(window).scroll(function () {
     }
 });
 // --- Fixed Navigation and Color transition ends ---  //
+
+
+// -------------------- Section "Works" MagnificPopUp --------------------//
+// -------- Source https://dimsemenov.com/pluggins/magnific-popup/ --------//
+$('.work').magnificPopup({
+    
+    delegate: 'a', // child items selector, by clicking on it popup will open
+    type: 'image',
+    // other options
+    gallery:{enabled:true}
+  });
+  // ----------------- Section "Works" MagnificPopUp ends ----------------//
