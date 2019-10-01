@@ -48,3 +48,23 @@ $('.work').magnificPopup({
     gallery:{enabled:true}
   });
   // ----------------- Section "Works" MagnificPopUp ends ----------------//
+
+
+//   ------------------- Section "Team" owl carousel ---------------------//
+$(document).ready(function(){
+    $("#team-members").owlCarousel({
+        items: 3,
+        autoplay:true,
+        smartSpeed: 700,
+        loop: true,
+        autoplayHoverPause: true,
+        responsive: {
+            0:{items:1},
+            480:{items:2},
+            768:{items:3}
+        }
+    
+    });
+    
+});
+//   ---------------- Section "Team" owl carousel ends -------------------//
