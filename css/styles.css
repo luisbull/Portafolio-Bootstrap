@@ -334,3 +334,42 @@ h4.team-member-designation {
 /* ======================================== 
 --------------- Team ends ----------------- 
 =========================================*/
+
+
+
+/* ======================================== 
+---------------- Reviews ------------------ 
+=========================================*/
+.carousel-inner img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 3px solid white;
+    padding: 5px;
+}
+.testimonial{
+    background-image: url(../img/reviews.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    padding-bottom: 80px;
+}
+
+.testimonial .carousel-indicators {
+    bottom: -50px;
+}
+
+.border-bottom {
+    width: 130px;
+    margin: auto;
+}
+.carousel-inner p {
+    font-size: 15px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+}
+
+/* ======================================== 
+-------------- Reviews ends --------------- 
+=========================================*/
