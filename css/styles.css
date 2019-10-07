@@ -382,6 +382,7 @@ h4.team-member-designation {
 
 .card-header {
     background-color: #34495e;
+    border: none;
 }
 .btn-link {
     color: white;
