@@ -53,9 +53,11 @@ a.nav-link.disabled{   /* IF |disable| is deleted in HTML, replace it for |locat
 /* ========================================
 ------ Fixed-top Nav Color Transition ----- 
 =========================================*/
+
 .secondary {
     background-color: rgb(0, 0, 0) !important;
 }
+
 /* ========================================
 --- Fixed-top Nav Color Transition ends --- 
 =========================================*/
@@ -199,12 +201,13 @@ a.fab:hover {
 ==============================*/
 
 
+
 /* ======================================== 
 --------------- Services ------------------ 
 =========================================*/
 
-
-/* Needs to be fixed in some screen sizes */
+/* Needs to be fixed in some screen sizes
+   because the effect cover just half of it */
 
 .service-wrap{
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
@@ -295,6 +298,7 @@ a.fab:hover {
 /* ======================================== 
 ----------------- Team -------------------- 
 =========================================*/
+
 .team-member {
     margin: 0 25px;
 }
@@ -340,6 +344,7 @@ h4.team-member-designation {
 /* ======================================== 
 ---------------- Reviews ------------------ 
 =========================================*/
+
 .carousel-inner img {
     width: 150px;
     height: 150px;
