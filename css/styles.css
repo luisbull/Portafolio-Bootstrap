@@ -616,3 +616,36 @@ h4.team-member-designation {
 /* ======================================== 
 ---------------- Blog ends ---------------- 
 =========================================*/
+
+
+
+/* ======================================== 
+------------------- Stats ----------------- 
+=========================================*/
+
+.stat {
+    background-image: url(..//img/cover-bg-1.jpg);
+    background-position: center;
+    padding: 180px 0px;
+    background-attachment: fixed; /* image doesn't move, only the items over the image */
+    color: white;
+}
+
+.stat i {
+    font-size: 80px;
+    padding-bottom: 15px;
+}
+
+.stat-item h2 {
+    font-weight: bolder;
+    font-size: 42px;
+    color: red;
+}
+
+.stat p {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+/* ======================================== 
+---------------- Stats ends --------------- 
+=========================================*/
