@@ -1,14 +1,22 @@
-// ----- Ripple effect ----- //
 jQuery(document).ready(function(){
 
+    // ----- Ripple effect ----- //
     "use strict"
         $(".slider").ripples({
             dropRadius: 15,
             perturbance: 0.01,
             // other options 
         });
+    // ----- Ripple effect ends ----- //
+    
+    // ----- Counter effect ----- //
+    $('.counter').counterUp({
+        delay: 10,
+        time: 1000
+    });
+    // ----- Counter effect ----- //
 });
-// ----- Ripple effect ends ----- //
+
 
 
 // ----- Typed effect ----- //
@@ -25,6 +33,7 @@ var typed = new Typed(".type", {
 // ----- Typed effect ends ----- //
 
 
+
 // ----- Fixed Navigation and Color transition -----  //
 $(window).scroll(function () {
     
@@ -38,6 +47,7 @@ $(window).scroll(function () {
 // --- Fixed Navigation and Color transition ends ---  //
 
 
+
 // -------------------- Section "Works" MagnificPopUp --------------------//
 // -------- Source https://dimsemenov.com/pluggins/magnific-popup/ --------//
 $('.work').magnificPopup({
@@ -47,7 +57,8 @@ $('.work').magnificPopup({
     // other options
     gallery:{enabled:true}
   });
-  // ----------------- Section "Works" MagnificPopUp ends ----------------//
+// ----------------- Section "Works" MagnificPopUp ends ----------------//
+
 
 
 //   ------------------- Section "Team" owl carousel ---------------------//
