@@ -624,7 +624,7 @@ h4.team-member-designation {
 =========================================*/
 
 .stat {
-    background-image: url(..//img/cover-bg-1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.7)),url(..//img/cover-bg-1.jpg);
     background-position: center;
     padding: 180px 0px;
     background-attachment: fixed; /* image doesn't move, only the items over the image */
