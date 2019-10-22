@@ -649,3 +649,40 @@ h4.team-member-designation {
 /* ======================================== 
 ---------------- Stats ends --------------- 
 =========================================*/
+
+
+
+/* ======================================== 
+------------------ Contact ---------------- 
+=========================================*/
+
+.form-control {
+    border-radius: 0px;
+    border: 1px solid #34495e;
+}
+
+.contact-row {
+    background-color: #34495e;
+    padding-top: 35px;
+    padding-bottom: 25px;
+    
+}
+
+.contact-icon i {
+    color: white;
+    font-size: 30px;
+    border: 2px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+}
+
+.contact-icon p {
+    color: white;
+    margin-top: 10px;
+}
+
+/* ======================================== 
+--------------- Contact ends -------------- 
+=========================================*/
