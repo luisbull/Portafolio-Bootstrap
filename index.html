@@ -34,7 +34,7 @@
 <body>
   
   <!-- Navigation bar -->  
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top"> <!-- expand, background and text color -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> <!-- expand, background and text color -->
     
     <!-- Logo -->
     <a class="navbar-brand" href="">
@@ -51,24 +51,39 @@
     <div class="collapse navbar-collapse" id="theTarget"> <!-- This <div> wraps <ul> to make it collapsable -->
       <ul class="navbar-nav ml-auto"> <!-- ml-auto (margin left)-->
         <li class="nav-item">
-          <a class="nav-link active" href="">link 1</a> <!-- active (to be used later?) -->
+          <a class="nav-link active" href="#slider">Home</a> <!-- active (to be used later?) -->
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="">link 2</a>
+          <a class="nav-link" href="#services">Services</a>
         </li>
-        <!--Dropdown link 3-->
+        <li class="nav-item">
+          <a class="nav-link" href="#works">Works</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#team">Team</a> <!-- disabled (to be used later? - IF disabled is deleted modify and use Location in CSS file) -->
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#testimonial">About us</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#latest">Blog</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#contact_area">Carrier</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#map">Location</a>
+        </li>
+        <!-- Dropdown link -->
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="" id="linkMenuDrop" data-toggle="dropdown">link 3</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="">item 1</a>
-            <a class="dropdown-item" href="">item 2</a>
-            <a class="dropdown-item" href="">item 3</a>
-          </div>
+            <a class="nav-link dropdown-toggle" href="" id="linkMenuDrop" data-toggle="dropdown">Link</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="">item 1</a>
+              <a class="dropdown-item" href="">item 2</a>
+              <a class="dropdown-item" href="">item 3</a>
+            </div>
         </li>
-        <!--End of dropdown link 3-->
-        <li class="nav-item">
-          <a class="nav-link disabled location" href="">link 4</a> <!-- disabled (to be used later?) -->
-        </li>
+        <!-- End of dropdown link -->
       </ul>
     </div>
   </nav>
@@ -307,7 +322,7 @@
   
   <!-------- Team markup ------->
 <br>
-<section class="team">
+<section class="team" id="team">
   <div class="container text-center">
     <h2><b>Members</b></h2>
     <p>
@@ -861,7 +876,7 @@
 
 <!------------ Location markup --------->
 <br><br>
-<section class="maps">
+<section class="maps" id="map">
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79713.38768759712!2d0.45610667885727973!3d51.36549947154399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ccd1235bbff3%3A0x81ccd83ac461b85b!2sChatham!5e0!3m2!1sen!2suk!4v1571814063392!5m2!1sen!2suk" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 </section>
 
