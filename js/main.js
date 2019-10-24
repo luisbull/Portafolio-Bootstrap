@@ -79,3 +79,18 @@ $(document).ready(function(){
     
 });
 //   ---------------- Section "Team" owl carousel ends -------------------//
+
+
+
+//   -------------------- Smooth scroll down effect ----------------------//
+//   Create a js file and paste content from: 
+//   https://raw.githubusercontent.com/kswedberg/jquery-smooth-scroll/master/jquery.smooth-scroll.js
+//   Create <script> </script> in html file and link it with the js file created.
+//   add   $('a').smoothScroll();   inside   $(document).ready(function(){  });
+
+$(document).ready(function(){  // I just duplicated this line for future reference
+    
+    $('a').smoothScroll();
+    
+});
+//   ----------------- Smooth scroll down effect ends --------------------//
