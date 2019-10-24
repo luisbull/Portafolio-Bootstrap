@@ -8,8 +8,7 @@
     transition: all 0.5s ease-in;
 }
 
-
-.nav-link {
+.navbar-nav .nav-item .nav-link {
     color: white !important;
     /* text-transform: uppercase; */
     font-weight: 600;
@@ -18,9 +17,15 @@
     transition: all 0.5s ease-in;
 }
 
-.nav-link:hover {
+.navbar-nav .nav-item .nav-link:hover {
     color: red !important;
     /* background-color: white !important; */
+}
+
+.navbar-nav .nav-item .nav-link:focus {
+    color: red !important;
+    background-color: white !important;
+    border-radius: 5px;
 }
 
 .navbar-toggler {
