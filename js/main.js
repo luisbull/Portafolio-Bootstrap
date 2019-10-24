@@ -92,5 +92,7 @@ $(document).ready(function(){  // I just duplicated this line for future referen
     
     $('a').smoothScroll();
     
+    new WOW().init(); // This was added in order to make animation work only when scroll down
+    
 });
 //   ----------------- Smooth scroll down effect ends --------------------//
