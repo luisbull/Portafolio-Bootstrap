@@ -726,7 +726,7 @@ h4.team-member-designation {
 .footer i:hover {
     color: rgb(255, 255, 255);
     background: rgb(52, 73, 94);
-    rotate: 360deg;
+    transform: rotate(360deg);
 }
 
 .copyright {
